@@ -35,10 +35,10 @@
 
 <body class="font-monrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content gap-4 flex-col lg:flex-row-reverse">
-                <div>
-                    <img src="images/banner.png" class="max-w-sm " />
+        <div>
+            <div class=" flex justify-between items-center gap-4 flex-col lg:flex-row-reverse">
+                <div class="mt-18">
+                    <img src="images/banner.png" class=" " />
                     <div class="-mt-24 flex bg-white drop-shadow-lg w-[245px] p-7 items-center gap-4">
                         <i class="text-amber-400 text-3xl fa-solid fa-star"></i>
                         <div>
@@ -54,7 +54,8 @@
                     <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
                         Buds.
                     </p>
-                    <button class="btn bg-gradient-to-r from-[#F00]  to-[#FF8938]">Explore More</button>
+                    <button class="btn text-white bg-gradient-to-r from-[#FF8938]  to-[#F00]">Explore More <i
+                            class="fa-solid fa-arrow-trend-up"></i></button>
                 </div>
             </div>
         </div>
@@ -177,7 +178,95 @@
 
             </div>
         </section>
+        <!-- news event  -->
+        <section class="mt-24 text-center">
+            <h3 class="text-5xl font-extrabold ">News & Events</h3>
+            <p class="max-w-4xl mx-auto mt-5">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
+                <!-- card-1  -->
+                <div class="card card-compact bg-base-100 border border-[#D2D2D2] rounded-xl p-5">
+                    <figure><img class="w-full" src="images/news-1.png" alt="Shoes" /></figure>
+                    <div class="card-body text-left">
+                        <p class="text-[#777] font-semibold">Feb 05, 2027</p>
+                        <h2 class="text-2xl font-extrabold">Collecting 8 points for <br> discount</h2>
+                        <p class="text-[#777] font-semibold">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h3 class="font-bold">Learn More</h3>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 border border-[#D2D2D2] rounded-xl p-5">
+                    <figure><img class="w-full" src="images/news-2.png" alt="Shoes" /></figure>
+                    <div class="card-body text-left">
+                        <p class="text-[#777] font-semibold">Feb 05, 2027</p>
+                        <h2 class="text-2xl font-extrabold">Collecting 8 points for <br> discount</h2>
+                        <p class="text-[#777] font-semibold">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h3 class="font-bold">Learn More</h3>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 border border-[#D2D2D2] rounded-xl p-5">
+                    <figure><img class="w-full" src="images/news-3.png" alt="Shoes" /></figure>
+                    <div class="card-body text-left">
+                        <p class="text-[#777] font-semibold">Feb 05, 2027</p>
+                        <h2 class="text-2xl font-extrabold">Collecting 8 points for <br> discount</h2>
+                        <p class="text-[#777] font-semibold">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <h3 class="font-bold">Learn More</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="lg:px-48 lg:py-32 mt-32 bg-base-200 text-base-content ">
+        <div class="flex flex-col lg:flex-row justify-between lg:my-24">
+            <img src="images/cup.png" alt="">
+            <p>
+                <span>Ready to get strated?</span>
+                <button class="btn bg-gradient-to-r from-[#FF8938]  to-[#F00]">Get Started</button>
+            </p>
+        </div>
+        <div class="footer ">
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com"
+                            class="p-4 bg-transparent border-b-2 border-black outline-none" />
+                        <button class="btn bg-gradient-to-r from-[#FF8938]  to-[#F00] text-white rounded-full"><i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="lg:mt-10 text-center">
+            <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </div>
+    </footer>
 </body>
 
 </html>
